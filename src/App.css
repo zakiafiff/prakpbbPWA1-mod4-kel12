@@ -155,8 +155,9 @@
   cursor: pointer;
 }
 
-.card-btn:hover {
-  border-color: var(--brass);
+.card-btn:hover,
+.card-btn:focus-visible {
+  border-color: var(--line);
 }
 
 .add-cart-btn,
