@@ -53,6 +53,22 @@ const GUNS = [
     description:
       'The other pump gun. Twin action bars, a simple safety on the tang, and a price that leaves money for ammunition.',
   },
+  {
+    name: 'RPG-7',
+    type: 'Rocket Launcher',
+    caliber: '40mm',
+    price: 2500,
+    image: '/guns/rpg.png',
+    description: 'Anti-tank weapon.',
+  },
+  {
+    name: 'M134 Minigun',
+    type: 'Heavy Machine Gun',
+    caliber: '7.62x51mm',
+    price: 15000,
+    image: '/guns/minigun.png',
+    description: 'Six-barrel rotary machine gun.',
+  },
 ]
 
 export default GUNS
